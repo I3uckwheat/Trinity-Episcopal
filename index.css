@@ -1,0 +1,49 @@
+body {
+  background-color: rgba(162, 255, 173, 0.08);
+}
+
+.container {
+  width: 50%;
+  max-width: 800px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 140px;
+  padding:  40px;
+  box-shadow: 3px 4px 15px 1px #00000059;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: white;
+}
+
+p {
+  color: rgba(31, 109, 34, 0.87);
+}
+
+.container h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 3em;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+header {
+  padding-bottom: 40px;
+  border-bottom: 1px solid black;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+header h1.name {
+  font-size: 5em;
+  margin-bottom: 30px
+}
+
+
+
+.container p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7em;
+}
+
+.container .mission {
+  margin-bottom: 65px;
+}
