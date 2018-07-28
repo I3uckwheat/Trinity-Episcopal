@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(38, 47, 165, 0.15);
+  background-color: rgba(37, 52, 253, 0.08);
 }
 
 .container {
@@ -10,12 +10,12 @@ body {
   margin-top: 40px;
   padding: 40px;
   box-shadow: 3px 4px 15px 1px #00000059;
-  color: rgb(42, 44, 93);
+  color: rgb(19, 20, 41);
   background-color: white;
 }
 
 p {
-  color: rgba(6, 10, 50, 0.81);
+  color: rgba(32, 39, 118, 0.81);
 }
 
 .container h1 {
