@@ -3,8 +3,7 @@ body {
 }
 
 .container {
-  width: 50%;
-  max-width: 800px;
+  max-width: 760px;
   border: 1px solid rgba(42, 44, 93, 0.62);
   margin: auto;
   margin-top: 40px;
@@ -37,7 +36,7 @@ header {
 
 header h1.name {
   font-size: 4.3em;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .container p {
@@ -52,4 +51,5 @@ header h1.name {
 main {
   border-top: 1px solid rgba(255, 0, 0, 0.39);
   padding-top: 50px;
+  margin-top: 30px;
 }
