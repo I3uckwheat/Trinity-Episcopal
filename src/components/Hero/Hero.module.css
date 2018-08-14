@@ -1,0 +1,19 @@
+.Hero {
+  background-color: red;
+  height: 60vh;
+  width: 100%;
+}
+
+.heroImg {
+  height: 45px;
+  width: 100px;
+  background-color: blue;
+}
+
+.heroTitle {
+
+}
+
+.shield {
+  background-color: grey;
+}

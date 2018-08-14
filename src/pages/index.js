@@ -1,17 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Hero from '../components/Hero/Hero'
+
 const IndexPage = () => (
   <div>
     <header>
-      <div className="hero">
-        <img src="" alt="Priest blessing" />
-        <div className="hero-title">
-          <h1>Trinity Episcopal Church</h1>
-          <img className="shield" src="" alt="Episcopal Shield" />
-        </div>
-      </div>
+      <Hero />
     </header>
+    
     <main>
       <article className="mission-statement">
         <h2>Striving to be the hands and feet of Christ in the world</h2>
