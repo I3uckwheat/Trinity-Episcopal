@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Trinity Episcopal Church',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
