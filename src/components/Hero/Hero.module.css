@@ -4,7 +4,7 @@
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 35em;
   border-bottom: 10px solid rgb(64, 126, 201);
 }
 
@@ -13,7 +13,7 @@
   bottom: 0;
   background-color: rgba(35, 35, 35, 52%);
   width: 100%;
-  height: 34%;
+  height: 10em;
   color: #F3F3FF;
   display: flex;
   justify-content: flex-end;
@@ -22,11 +22,11 @@
 
 .heroTitle h1 {
   font-family: 'Lato', sans-serif;
-  font-size: 3em;
+  font-size: 5.4em;
 }
 
 .shield {
   padding-bottom: 0;
   height: 70%;
-  padding: 0 25px;
+  padding: 0 2em;
 }

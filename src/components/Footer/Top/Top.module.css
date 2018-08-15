@@ -4,13 +4,13 @@
   height: 385px;
   text-align: center;
   display: flex;
-  padding: 0 99px;
+  padding: 0 15em;
   align-items: center;
 }
 
 .Top p {
   font-family: 'Lato', sans-serif;
   font-style: italic;
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 1.2em;
 }
