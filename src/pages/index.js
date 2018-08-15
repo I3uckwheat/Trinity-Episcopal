@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Hero from '../components/Hero/Hero.js'
+import Hero from '../components/Hero/Hero'
+import Footer from '../components/Footer/Footer'
 
 const IndexPage = () => (
   <div>
@@ -9,8 +10,8 @@ const IndexPage = () => (
       <Hero />
     </header>
 
-    {/* <main>
-      <article className="mission-statement">
+    <main>
+      {/* <article className="mission-statement">
         <h2>Striving to be the hands and feet of Christ in the world</h2>
       </article>
 
@@ -54,32 +55,12 @@ const IndexPage = () => (
         <img />
         <img />
         <img />
-      </div>
+      </div> */}
     </main>
 
     <footer>
-      <div className="top">
-        <p>
-          Founded in 1882, and after many years of changes, The Trinity
-          Episcopal Church is striving to change the way you think about church.
-          We work to improve the lives of everybody we touch by being active in
-          the community.
-        </p>
-      </div>
-      <div className="bottom">
-        <div className="badges">
-          <img />
-          <img />
-          <img />
-        </div>
-        <div className="address">
-          <p>Trinity Episcopal Church</p>
-          <p>202 E Kemp</p>
-          <p>Watertown, SD</p>
-          <p>(605)-868-2425</p>
-        </div>
-      </div>
-    </footer> */}
+      <Footer />
+    </footer>
   </div>
 )
 
