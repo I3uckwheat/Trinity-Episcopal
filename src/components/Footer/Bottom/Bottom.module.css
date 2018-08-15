@@ -5,30 +5,3 @@
   border-bottom: 19px solid #407ec9;
 }
 
-.Badges {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.Address {
-  float: right;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.Address p {
-  margin-bottom: 3px;
-  color: #bebebf;
-}
-
-.Shield {
-  float: right;
-  height: 70%;
-  padding: 0 25px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}

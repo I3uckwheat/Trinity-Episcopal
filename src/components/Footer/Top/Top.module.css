@@ -3,7 +3,9 @@
   color: #b8babd;
   height: 385px;
   text-align: center;
-  padding: 99px;
+  display: flex;
+  padding: 0 99px;
+  align-items: center;
 }
 
 .Top p {

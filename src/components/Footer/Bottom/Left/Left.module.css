@@ -1,0 +1,9 @@
+.Left {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.Left {
+  float: left;
+}

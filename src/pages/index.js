@@ -10,7 +10,7 @@ const IndexPage = () => (
       <Hero />
     </header>
 
-    <main>
+    <main style={{paddingTop: '100px'}}>
       {/* <article className="mission-statement">
         <h2>Striving to be the hands and feet of Christ in the world</h2>
       </article>

@@ -1,0 +1,23 @@
+.Right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.Right {
+  float: right;
+}
+
+.Address {
+  text-align: center;
+}
+
+.Address p {
+  margin-bottom: 3px;
+  color: #bebebf;
+}
+
+.Shield {
+  height: 70%;
+  padding: 0 25px;
+}
