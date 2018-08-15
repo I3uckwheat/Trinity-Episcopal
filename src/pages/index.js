@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Hero from '../components/Hero/Hero'
+import Hero from '../components/Hero/Hero.js'
 
 const IndexPage = () => (
   <div>
     <header>
       <Hero />
     </header>
-    
-    <main>
+
+    {/* <main>
       <article className="mission-statement">
         <h2>Striving to be the hands and feet of Christ in the world</h2>
       </article>
@@ -79,7 +79,7 @@ const IndexPage = () => (
           <p>(605)-868-2425</p>
         </div>
       </div>
-    </footer>
+    </footer> */}
   </div>
 )
 
