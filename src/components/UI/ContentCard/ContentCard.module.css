@@ -1,0 +1,25 @@
+.ContentCard {
+  border-bottom: 2px solid #908fae;
+  width: 89%;
+  margin: 100px 0;
+  display: flex;
+}
+
+.ContentCard img,
+.ContentCard > * {
+  width: 40vw;
+  height: 25vw;
+  margin-right: 120px;
+}
+
+.inverse {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+
+.inverse img,
+.inverse > * {
+  margin-right: 0;
+  margin-left: 120px;
+}

@@ -1,17 +1,26 @@
-# Trinity Episcopal Church Website
+# gatsby-starter-default
+The default Gatsby starter.
 
-This is the front end static site generator. Deploy to any static site host.
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-## Development Server
+## Install
 
-`gatsby develop`
+Make sure that you have the Gatsby CLI program installed:
+```sh
+npm install --global gatsby-cli
+```
 
-## Production Build
+And run from your CLI:
+```sh
+gatsby new gatsby-example-site
+```
 
-`gatsby build`
+Then you can run it by:
+```sh
+cd gatsby-example-site
+gatsby develop
+```
 
-## Testing production build
+## Deploy
 
-`gatsby serve`
-
-This launches a local HTTP server to test the built site before deployment.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)

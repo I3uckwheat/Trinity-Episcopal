@@ -1,0 +1,23 @@
+.Main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Join {}
+
+.Join .articleText .contactInformation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Join .articleText .times {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Join .articleText .times p{
+  margin-bottom: 0;
+}
