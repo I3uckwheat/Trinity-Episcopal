@@ -18,9 +18,9 @@ const IndexPage = () => (
     </header>
 
     <main className={style.Main}>
-      {/* <article className="mission-statement">
+      <article className={style.missionStatement}>
         <h2>Striving to be the hands and feet of Christ in the world</h2>
-      </article> */}
+      </article>
 
       <ContentCard>
         <img src={map} alt="Click for directions" />
