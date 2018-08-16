@@ -7,35 +7,3 @@
 .Main > * {
   margin-bottom: 130px;
 }
-
-.Main .missionStatement {
-  width: 89%;
-  border-bottom: 1px solid black;
-  text-align: center;
-}
-
-.Main .missionStatement h2 {
-  margin: 70px 0;
-  font-size: 48px;
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.Join {
-}
-
-.Join .articleText .contactInformation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.Join .articleText .times {
-  display: flex;
-  justify-content: space-between;
-}
-
-.Join .articleText .times p {
-  margin-bottom: 0;
-}

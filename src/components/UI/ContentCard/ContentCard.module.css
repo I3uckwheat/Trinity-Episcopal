@@ -6,9 +6,9 @@
 
 .ContentCard img,
 .ContentCard > * {
-  width: 40vw;
-  height: 25vw;
-  margin-right: 120px;
+  width: 35vw;
+  height: 20vw;
+  margin-right: 170px;
 }
 
 .inverse {
@@ -20,5 +20,5 @@
 .inverse img,
 .inverse > * {
   margin-right: 0;
-  margin-left: 120px;
+  margin-left: 170px;
 }

@@ -1,0 +1,13 @@
+.missionStatement {
+  width: 89%;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.missionStatement h2 {
+  margin: 70px 0;
+  font-size: 48px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+}
