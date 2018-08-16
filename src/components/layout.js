@@ -18,21 +18,16 @@ const Layout = ({ children, data }) => (
     `}
     render={data => (
       <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            {
-              name: 'description',
-              content: 'Landing page for Trinity Watertown Episcopal Church',
-            },
-            {
-              name: 'keywords',
-              content:
-                'church, jesus, Watertown, SD, Episcopal, Trinity, diversity',
-            },
-          ]}
-        >
-          {' '}
+        <Helmet>
+          <title>{data.site.siteMetadata.title}</title>
+          <meta
+            name="description"
+            content="Landing page for Trinity Watertown Episcopal Church"
+          />
+          <meta
+            name="keywords"
+            content="church, jesus, Watertown, SD, Episcopal, Trinity, diversity"
+          />
           <link
             href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500i|Lato:300,400i,700"
             rel="stylesheet"
