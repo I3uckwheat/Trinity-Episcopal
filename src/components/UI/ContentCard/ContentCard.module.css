@@ -1,14 +1,17 @@
 .ContentCard {
   border-bottom: 2px solid #908fae;
-  width: 89%;
+  width: 79%;
   display: flex;
 }
 
-.ContentCard img,
-.ContentCard > * {
+.ContentCard img {
   width: 35vw;
   height: 20vw;
   margin-right: 170px;
+}
+
+.ContentCard > * {
+  width: 100%;
 }
 
 .inverse {
@@ -16,9 +19,7 @@
   text-align: right;
 }
 
-
-.inverse img,
-.inverse > * {
+.inverse img {
   margin-right: 0;
   margin-left: 170px;
 }

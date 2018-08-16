@@ -1,11 +1,11 @@
 import React from 'react'
 
-import people from '../../../images/people.jpg'
+import people from '../../../../images/people.jpg'
 
-import ContentCard from '../../UI/ContentCard/ContentCard'
+import ContentCard from '../../../UI/ContentCard/ContentCard'
 
-const WelcomeCard = () => (
-  <ContentCard inverse={true}>
+const WelcomeCard = props => (
+  <ContentCard inverse={true} className={props.className}>
     <img className="" src={people} alt="happy children" />
     <div className="article-text">
       <h2>All Are Welcome</h2>

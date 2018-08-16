@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 import Hero from '../components/Hero/Hero'
 import Footer from '../components/Footer/Footer'
 import MissionStatement from '../components/indexComponents/MissionStatment/MissionStatment'
-import JoinUsCard from '../components/indexComponents/JoinUsCard/JoinUsCard'
-import WelcomeCard from '../components/indexComponents/WelcomeCard/WelcomeCard'
+import Cards from '../components/indexComponents/Cards/Cards'
+import ImageBlock from '../components/indexComponents/ImageBlock/ImageBlock'
 
 import style from './index.module.css'
 
@@ -18,14 +18,8 @@ const IndexPage = () => (
 
     <main className={style.Main}>
       <MissionStatement />
-      <JoinUsCard />
-      <WelcomeCard />
-
-      {/* <div className="final-images">
-        <img />
-        <img />
-        <img />
-      </div> */}
+      <Cards />
+      <ImageBlock />
     </main>
 
     <footer>

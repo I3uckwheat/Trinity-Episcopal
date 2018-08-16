@@ -1,0 +1,25 @@
+.Join .address {
+  font-size: 36px;
+}
+
+.Join .articleText .contactInformation {
+  display: flex;
+}
+
+.Join .articleText > *:not(h2) {
+  margin-top: 30px;
+  display: flex;
+}
+
+.Join .articleText p {
+  margin-bottom: 0;
+}
+
+.Join .articleText > * > * {
+  margin-left: 25px;
+
+}
+
+.Join .articleText > * > *:first-child {
+  margin-left: 0;
+}
