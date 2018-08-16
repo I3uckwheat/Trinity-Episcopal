@@ -1,6 +1,5 @@
 import React from 'react'
 
-import ordination from './ordination.jpg'
 import Shield from '../UI/Shield/Shield'
 import style from './Hero.module.css'
 
