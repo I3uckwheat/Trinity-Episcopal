@@ -1,7 +1,6 @@
 .Top {
   background-color: #282E36;
   color: #b8babd;
-  height: 305px;
   text-align: center;
   display: flex;
   padding: 0 110px;
@@ -11,6 +10,7 @@
 .Top p {
   font-family: 'Lato', sans-serif;
   font-style: italic;
-  font-size: 1.7em;
+  font-size: 3vw;
+  margin: 20px 0;
   line-height: 1.2em;
 }

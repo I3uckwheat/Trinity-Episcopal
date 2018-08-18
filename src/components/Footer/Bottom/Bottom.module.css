@@ -1,7 +1,7 @@
 .Bottom {
   display: flex;
   justify-content: space-between;
-  height: 150px;
+  height: 140px;
   background-color: #27292b;
-  border-bottom: 19px solid #407ec9;
+  border-bottom: 8px solid #407ec9;
 }
