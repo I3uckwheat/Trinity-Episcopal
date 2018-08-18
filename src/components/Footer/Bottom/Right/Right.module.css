@@ -10,8 +10,8 @@
 
 .Address {
   text-align: center;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 11px;
+  line-height: 13px;
 }
 
 .Address p {
@@ -19,7 +19,7 @@
   color: #bebebf;
 }
 
-.Shield {
+.Right img {
   height: 50%;
   padding: 0 15px;
 }
