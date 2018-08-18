@@ -10,12 +10,14 @@ const JoinUsCard = props => (
   <ContentCard className={props.className}>
     <img src={map} alt="Click for directions" />
     <article className={style.Join}>
+      <h2>Join Us</h2>
       <div className={style.articleText}>
-        <h2>Join Us</h2>
-        <p className={style.address}>202 E Kemp, Watertown, SD</p>
         <div className={style.contactInformation}>
-          <p>Call Us: (605)-868-2425</p>
-          <p>trinityepiscopalfaith@gmail.com</p>
+          <p className={style.address}>202 E Kemp, Watertown, SD</p>
+          <div>
+            <p>Call Us: (605)-868-2425</p>
+            <p>trinityepiscopalfaith@gmail.com</p>
+          </div>
         </div>
         <div className={style.times}>
           <div className="left">

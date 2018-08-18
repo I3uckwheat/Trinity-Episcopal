@@ -3,11 +3,19 @@
   width: 90%;
   display: flex;
   flex-direction: column-reverse;
+  font-family: 'Lato', sans-serif;
+  font-weight: light;
+  text-align: center;
 }
 
 .ContentCard img {
   /* width: 90%; */
+  border-bottom: 1px solid black;
   /* height: auto; */
+}
+
+.ContentCard h2 {
+  font-family: 'EB Garamond', sans-serif;
 }
 
 .ContentCard > * {
@@ -21,4 +29,16 @@
 .inverse img {
   /* margin-right: 0; */
   /* margin-left: 170px; */
+}
+
+@media (min-width: 360px) {
+  .ContentCard {
+    text-align: left;
+    font-size: 3vw;
+  }
+
+  .ContentCard h2 {
+    margin: 20px 0;
+    font-size: 5vw;
+  }
 }
