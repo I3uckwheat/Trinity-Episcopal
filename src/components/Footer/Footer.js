@@ -5,7 +5,7 @@ import Bottom from './Bottom/Bottom'
 
 const Footer = () => (
   <div>
-    <Top />
+    {/* <Top /> */}
     <Bottom />
   </div>
 )

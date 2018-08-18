@@ -8,7 +8,7 @@ import WelcomeCard from './WelcomeCard/WelcomeCard'
 const Cards = () => (
   <>
     <JoinUsCard className={style.Cards} />
-    {/* <WelcomeCard className={style.Cards} /> */}
+    <WelcomeCard className={style.Cards} />
   </>
 )
 

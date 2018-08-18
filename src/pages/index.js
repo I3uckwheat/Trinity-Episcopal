@@ -17,14 +17,14 @@ const IndexPage = () => (
     </header>
 
     <main className={style.Main}>
-      {/* <MissionStatement /> */}
+      <MissionStatement />
       <Cards />
       {/* <ImageBlock /> */}
     </main>
 
-    {/* <footer> */}
-      {/* <Footer /> */}
-    {/* </footer> */}
+    <footer>
+      <Footer />
+    </footer>
   </Layout>
 )
 

@@ -1,9 +1,11 @@
 .Left {
   display: flex;
-  height: 100%;
   align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
 }
 
-.Left {
-  float: left;
+.Left img {
+  width: 2.5em;
+  margin-left: 1em;
 }
