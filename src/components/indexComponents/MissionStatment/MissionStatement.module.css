@@ -11,3 +11,9 @@
   font-weight: 400;
   font-style: italic;
 }
+
+@media (min-width: 584px) {
+  .missionStatement h2 {
+    font-size: 3.7vw;
+  }
+}
