@@ -1,7 +1,6 @@
 .Bottom {
   display: flex;
-  /* justify-content: space-between; */
-  /* position: relative; */
+  justify-content: space-between;
   height: 150px;
   background-color: #27292b;
   border-bottom: 19px solid #407ec9;
