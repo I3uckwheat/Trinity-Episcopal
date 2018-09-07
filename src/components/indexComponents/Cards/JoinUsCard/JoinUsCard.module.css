@@ -1,14 +1,5 @@
-.Join {
-  /* text-align: center; */
-}
-
-.Join .articleText .contactInformation {
-  /* display: flex; */
-}
-
 .Join .articleText > *:not(h2) {
   margin-bottom: 15px;
-  /* display: flex; */
 }
 
 .Join .articleText > * > div {
@@ -17,19 +8,6 @@
 
 .Join .articleText p {
   margin-bottom: 0;
-}
-
-.Join p.address {
-  /* font-size: 36px; */
-  margin-bottom: 15px;
-}
-
-.Join .articleText > * > * {
-  /* margin-left: 25px; */
-}
-
-.Join .articleText > * > *:first-child {
-  /* margin-left: 0; */
 }
 
 @media (min-width: 360px) {
@@ -47,5 +25,15 @@
   .Join .articleText .contactInformation {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 880px) {
+  .Join .articleText .times {
+    margin-left: 20px;
+  }
+
+  .Join .contactInformation > p {
+    margin-bottom: 30px;
   }
 }

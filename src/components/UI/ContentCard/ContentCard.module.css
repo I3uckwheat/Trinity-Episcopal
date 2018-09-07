@@ -35,10 +35,46 @@
   .ContentCard {
     text-align: left;
     font-size: 3vw;
+    font-size: 2vw;
+    border-bottom: 1px solid black;
   }
 
   .ContentCard h2 {
     margin: 20px 0;
     font-size: 5vw;
+  }
+}
+
+@media (min-width: 880px) {
+  .ContentCard {
+    flex-direction: row;
+    height: auto;
+    line-height: 1.1em;
+  }
+
+  .ContentCard img {
+    border-bottom: none;
+    align-items: flex-end;
+    height: 15em;
+    margin-right: 3%;
+  }
+
+  .inverse {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .inverse img {
+    margin-right: 0;
+    margin-left: 3%;
+  }
+
+  .ContentCard h2 {
+    font-size: 3vw;
+  }
+
+  .ContentCard p {
+    font-size: 80%;
+    margin-bottom: 0;
   }
 }

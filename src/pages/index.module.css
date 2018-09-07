@@ -7,3 +7,9 @@
 .Main > * {
   margin-bottom: 20px;
 }
+
+@media (min-width: 880px) {
+  .Main > * {
+    margin-bottom: 100px;
+  }
+}

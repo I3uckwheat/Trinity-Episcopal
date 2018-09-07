@@ -44,6 +44,12 @@
 @media (min-width: 1220px) {
   .Hero {
     background-position: 0 25%;
-    max-height: 35vw;
+    max-height: 30vw;
+  }
+}
+
+@media (min-width: 1700px) {
+  .Hero {
+    max-height: 25vw;
   }
 }

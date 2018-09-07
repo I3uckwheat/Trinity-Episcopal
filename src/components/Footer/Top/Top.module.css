@@ -1,5 +1,5 @@
 .Top {
-  background-color: #282E36;
+  background-color: #282e36;
   color: #b8babd;
   text-align: center;
   display: flex;
@@ -13,4 +13,10 @@
   font-size: 3vw;
   margin: 20px 0;
   line-height: 1.2em;
+}
+
+@media (min-width: 800px) {
+  .Top p {
+    font-size: 2vw;
+  }
 }
