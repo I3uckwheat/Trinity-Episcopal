@@ -14,7 +14,7 @@
   background-color: rgba(35, 35, 35, 52%);
   height: 25%;
   width: 100%;
-  color: #F3F3FF;
+  color: #f3f3ff;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -30,7 +30,7 @@
 .shield {
   padding-bottom: 0;
   height: 70%;
-  padding: 0 10px; 
+  padding: 0 10px;
 }
 
 @media (min-width: 480px) {
@@ -38,5 +38,12 @@
     background-position: 50% 30%;
     height: 45vw;
     max-height: 400px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .Hero {
+    background-position: 0 25%;
+    max-height: 35vw;
   }
 }
