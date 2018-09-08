@@ -2,10 +2,6 @@
   width: 100%;
 }
 
-.imgLink {
-  width: 55%;
-}
-
 .Join .articleText > *:not(h2) {
   margin-bottom: 15px;
 }
@@ -17,6 +13,10 @@
 .Join .articleText p {
   margin-bottom: 0;
 }
+
+.imgLink {
+    width: 100%;
+ }
 
 @media (min-width: 360px) {
   .Join .articleText {
@@ -37,11 +37,20 @@
 }
 
 @media (min-width: 880px) {
+  .Join {
+    height: 80%;
+  }
+
+  .imgLink {
+    line-height: 0;
+  }
+
   .Join .articleText {
     justify-content: flex-start;
   }
+
   .Join .articleText .times {
-  margin-left: 10%;
+    margin-left: 10%;
   }
 
   .Join .contactInformation > p {

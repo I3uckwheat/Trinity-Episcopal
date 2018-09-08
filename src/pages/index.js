@@ -19,7 +19,7 @@ const IndexPage = () => (
     <main className={style.Main}>
       <MissionStatement />
       <Cards />
-      {/* <ImageBlock /> */}
+      <ImageBlock />
     </main>
 
     <footer>

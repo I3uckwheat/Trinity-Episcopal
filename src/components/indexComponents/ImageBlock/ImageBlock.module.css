@@ -1,9 +1,10 @@
 .ImageBlock {
   width: 69%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.ImageBlock > img {
-  float: left;
-  max-height: 400px;
-  max-width: 400px;
+.ImageBlock img {
+  height: 20vw;
+  margin: 5px;
 }

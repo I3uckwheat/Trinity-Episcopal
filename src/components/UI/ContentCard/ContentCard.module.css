@@ -5,9 +5,10 @@
   font-family: 'Lato', sans-serif;
   font-weight: light;
   text-align: center;
+    font-size: 3vw;
 }
 
-.ContentCard img, .ContentCard a {
+.ContentCard img {
   border-bottom: 1px solid black;
 }
 
@@ -15,12 +16,12 @@
   font-family: 'EB Garamond', sans-serif;
 }
 
+
+
 @media (min-width: 360px) {
   .ContentCard {
     text-align: left;
-    font-size: 3vw;
-    font-size: 2vw;
-    border-bottom: 1px solid black;
+    font-size: 2.5vw;
   }
 
   .ContentCard h2 {
@@ -34,9 +35,11 @@
     flex-direction: row;
     height: auto;
     line-height: 1.1em;
+    border-bottom: 1px solid black;
+    font-size: 2vw;
   }
 
-  .ContentCard img, .ContentCard a {
+  .ContentCard img {
     border-bottom: none;
     align-items: flex-end;
     height: 15em;
