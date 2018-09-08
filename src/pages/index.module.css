@@ -13,3 +13,9 @@
     margin-bottom: 100px;
   }
 }
+
+@media (min-width: 1440px) {
+  .Main {
+    padding: 0 200px;
+  }
+}

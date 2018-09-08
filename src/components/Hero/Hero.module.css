@@ -46,10 +46,14 @@
     background-position: 0 25%;
     max-height: 30vw;
   }
+
+  .heroTitle h1 {
+    font-size: 5.4vw;
+  }
 }
 
 @media (min-width: 1700px) {
   .Hero {
-    max-height: 25vw;
+    max-height: 27vw;
   }
 }

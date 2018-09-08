@@ -33,3 +33,10 @@
     margin-bottom: 5vw; 
   }
 }
+
+@media (min-width: 1440px) {
+  .missionStatement h2 {
+    font-size: 2vw;
+    margin: 80px 0;
+  }
+}

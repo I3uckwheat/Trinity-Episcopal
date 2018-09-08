@@ -1,3 +1,7 @@
+.Join {
+  width: 100%;
+}
+
 .Join .articleText > *:not(h2) {
   margin-bottom: 15px;
 }
@@ -29,8 +33,11 @@
 }
 
 @media (min-width: 880px) {
+  .Join .articleText {
+    justify-content: flex-start;
+  }
   .Join .articleText .times {
-    margin-left: 20px;
+  margin-left: 10%;
   }
 
   .Join .contactInformation > p {
