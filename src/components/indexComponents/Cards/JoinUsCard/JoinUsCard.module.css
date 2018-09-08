@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.imgLink {
+  width: 55%;
+}
+
 .Join .articleText > *:not(h2) {
   margin-bottom: 15px;
 }

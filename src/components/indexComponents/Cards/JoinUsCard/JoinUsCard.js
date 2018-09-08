@@ -8,7 +8,9 @@ import style from './JoinUsCard.module.css'
 
 const JoinUsCard = props => (
   <ContentCard className={props.className}>
-    <img src={map} alt="Click for directions" />
+    <a href="https://goo.gl/maps/ukMvkW7rGBE2" className={style.imgLink}>
+      <img src={map} alt="Click for directions" />
+    </a>
     <article className={style.Join}>
       <h2>Join Us</h2>
       <div className={style.articleText}>
