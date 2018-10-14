@@ -12,9 +12,9 @@ const WelcomeCard = props => (
       <p>
         Trinity Episcopal Church is an open and affirming, welcoming community.
         We strive to love our neighbors as ourselves and respect the dignity of
-        every person. We welcome all to find a spiritual home in the Episcopal
+        every human being. We welcome all to find a spiritual home in the Episcopal
         Church. We welcome everyone to the table to worship together to the
-        Glory of God. Amen.
+        Glory of God. 
       </p>
     </div>
   </ContentCard>

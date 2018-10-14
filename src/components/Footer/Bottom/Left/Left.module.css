@@ -6,6 +6,12 @@
 }
 
 .Left img {
-  width: 2em;
+  width: 3em;
   margin-left: 1em;
+}
+
+@media(max-width: 430px) {
+  .Left img {
+    width: 2em;
+  }
 }
