@@ -15,7 +15,10 @@ const JoinUsCard = props => (
       <h2>Join Us</h2>
       <div className={style.articleText}>
         <div className={style.contactInformation}>
-          <p className={style.address}>612 3rd St NE, Watertown, SD</p>
+          <div className={style.address}>
+            <p>612 3rd St NE, Watertown, SD</p>
+            <p>Use the entrance on 6th Ave NE</p>
+          </div>
           <div>
             <p>Call Us: (605)-868-2425</p>
             <p>trinityepiscopalfaith@gmail.com</p>
