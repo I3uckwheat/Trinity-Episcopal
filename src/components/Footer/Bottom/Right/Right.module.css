@@ -21,5 +21,6 @@
 
 .Right img {
   height: 50%;
+  width: auto;
   padding: 0 15px;
 }
