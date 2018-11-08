@@ -8,7 +8,7 @@ import style from './JoinUsCard.module.css'
 
 const JoinUsCard = props => (
   <ContentCard className={props.className}>
-    <a href="https://goo.gl/maps/cfEWtk8EMMs" className={style.imgLink}>
+    <a href="https://goo.gl/maps/X24yNwewoES2" className={style.imgLink}>
       <img src={map} alt="Click for directions" />
     </a>
     <article className={style.Join}>
