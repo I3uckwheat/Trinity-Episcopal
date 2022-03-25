@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from './Bottom.module.css'
+import * as style from './Bottom.module.css';
 import Left from './Left/Left'
 import Right from './Right/Right';
 

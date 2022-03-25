@@ -8,7 +8,7 @@ import MissionStatement from '../components/indexComponents/MissionStatment/Miss
 import Cards from '../components/indexComponents/Cards/Cards'
 import ImageBlock from '../components/indexComponents/ImageBlock/ImageBlock'
 
-import style from './index.module.css'
+import * as style from './index.module.css'
 
 const IndexPage = () => (
   <Layout>

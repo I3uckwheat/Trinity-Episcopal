@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Shield from '../UI/Shield/Shield'
-import style from './Hero.module.css'
+import * as style from './Hero.module.css'
 
 const Hero = () => (
   <div className={style.Hero}>

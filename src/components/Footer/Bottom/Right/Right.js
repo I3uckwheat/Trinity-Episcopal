@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from './Right.module.css'
+import * as style from './Right.module.css'
 import diocesan from './diocesan.png'
 
 const Right = () => (

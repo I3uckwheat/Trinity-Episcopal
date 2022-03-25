@@ -4,7 +4,7 @@ import ContentCard from '../../../UI/ContentCard/ContentCard'
 
 import map from '../../../../images/map.png'
 
-import style from './JoinUsCard.module.css'
+import * as style from './JoinUsCard.module.css'
 
 const JoinUsCard = props => (
   <ContentCard className={props.className}>
@@ -22,16 +22,18 @@ const JoinUsCard = props => (
           <div>
             <p>Call Us: (605)-868-2425</p>
             <p>trinityepiscopalfaith@gmail.com</p>
+            <a href="https://www.facebook.com/WatertownSD57201">Find us on Facebook!</a>
           </div>
         </div>
         <div className={style.times}>
           <div className="left">
-            <p>Wednesday - 5:30pm</p>
-            <p>Christian study for youth & adults with meal</p>
+            <p>Wednesday</p>
+            <p>6:00pm | Enrich Wednesday - Book Study</p>
+            <p>7:00pm | Evening Prayer</p>
           </div>
           <div className="right">
-            <p>Sunday - 10:00am</p>
-            <p>Service with coffee after!</p>
+            <p>Sunday</p>
+            <p>10:30am | Service with coffee after!</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from './Top.module.css'
+import * as style from './Top.module.css'
 
 const Top = () => (
   <div className={style.Top}>

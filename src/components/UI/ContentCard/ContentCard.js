@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from './ContentCard.module.css'
+import * as style from './ContentCard.module.css'
 
 const ContentCard = props => (
   <article

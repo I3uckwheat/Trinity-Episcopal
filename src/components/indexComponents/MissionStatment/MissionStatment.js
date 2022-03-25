@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from './MissionStatement.module.css'
+import * as style from './MissionStatement.module.css'
 
 const MissionStatement = () => (
   <article className={style.missionStatement}>

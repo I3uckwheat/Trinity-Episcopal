@@ -1,6 +1,6 @@
 import React from 'react';
 
-import style from './Left.module.css'
+import * as style from './Left.module.css'
 import Badges from './Badges/Badges'
 
 const Left = () => (
